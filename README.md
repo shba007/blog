@@ -11,4 +11,4 @@
   </a>
 </p>
 
-![Landing](public/previews/landing.jpg)
+![Landing](public/previews/landing.webp)

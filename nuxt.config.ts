@@ -179,6 +179,6 @@ export default defineNuxtConfig({
     },
   },
   gtag: {
-    id: 'G-ZMR7H4LPSK'
+    id: 'G-0E5TB9X4W9'
   },
 })
