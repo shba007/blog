@@ -34,7 +34,7 @@ useSchemaOrg([
 
 <template>
   <NuxtPwaManifest />
-  <NuxtLoadingIndicator color="#0EA5E9" />
+  <NuxtLoadingIndicator color="#FBBF24" />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
