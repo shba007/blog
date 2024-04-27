@@ -17,12 +17,12 @@
 		</div>
 		<ul class="flex justify-between items-center mx-auto py-4 max-w-[76rem] text-[0.875rem] text-white/60">
 			<li>
-				<span>© 2024 AI Guide</span>
+				<span>© 2024 Blog</span>
 				<br />
 				<span>MIT License</span>
 			</li>
 			<li>
-				<NuxtLink href="https://github.com/shba007/ai-guide">
+				<NuxtLink href="https://github.com/shba007/blog">
 					<NuxtIcon name="github" class="text-[24px] text-white opacity-60 hover:opacity-100 transition-opacity" />
 				</NuxtLink>
 			</li>

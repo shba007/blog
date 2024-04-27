@@ -11,7 +11,7 @@ const routes = [{
 			class="absolute top-0 left-0 right-0 flex justify-between items-center gap-6 mx-auto py-5 px-4 md:px-8 lg:px-0 max-w-[76rem]">
 			<a href="/" class="flex gap-3">
 				<NuxtIcon name="logo" filled class="text-[32px] scale-125" />
-				<h2 class="hidden md:inline text-lg">{SITE_TITLE}</h2>
+				<h2 class="hidden md:inline text-lg">Blog</h2>
 			</a>
 			<!-- Routes -->
 			<ul class="relative flex gap-8 md:-translate-x-16">
@@ -22,7 +22,7 @@ const routes = [{
 			<!-- Social Media -->
 			<ul>
 				<li>
-					<a href="https://github.com/shba007/ai-guide">
+					<a href="https://github.com/shba007/blog">
 						<NuxtIcon name="github" class="text-[32px] fill-white opacity-60 hover:opacity-100 transition-opacity" />
 					</a>
 				</li>

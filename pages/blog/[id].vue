@@ -22,7 +22,7 @@ const { data: post, pending, error, refresh } = await useFetch(`/api/post/${id}`
 				<section>
 					<p>{{ post.text }}</p>
 					<h6 v-if="post.author" class="my-4 text-sm">Author: {{ post.author }}</h6>
-					<ul class="flex gap-2">
+					<ul class="flex gap-2 max-w-[100vw] overflow-x-scroll">
 						<li v-for="tag in post.tags" :key="tag" class="px-4 py-1.5 bg-dark-500 rounded-lg">{{ tag }}</li>
 					</ul>
 				</section>

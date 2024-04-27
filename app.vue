@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const title = `Blog`
 const description = `An Blog Website`
-const url = "https://shirsendu-bairagi.dev"
+const url = "https://blog-oehd.onrender.com"
 
 useSeoMeta({
   ogType: "profile",
@@ -34,6 +34,7 @@ useSchemaOrg([
 
 <template>
   <NuxtPwaManifest />
+  <NuxtLoadingIndicator color="#0EA5E9" />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>

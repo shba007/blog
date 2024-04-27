@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   },
   site: {
     name: 'Blog',
-    url: 'https://shirsendu-bairagi.dev',
+    url: 'https://blog-oehd.onrender.com',
   },
   pwa: {
     registerType: 'autoUpdate',
