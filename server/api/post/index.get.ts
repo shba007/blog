@@ -14,8 +14,10 @@ export default defineEventHandler(async () => {
 			}
 		})
 
+		await useStorage().setItem('posts', posts)
+
 		return posts.documents.map(({ id, url, title, text, published_at, images }) => {
-			return { id, image: images[0], publishedAt: published_at, title, description: text, url }
+			return { id, slug: convertToSlug(title), image: images[0], publishedAt: published_at, title, description: text, url }
 		})
 	} catch (error: any) {
 		console.error("API Post get", error)

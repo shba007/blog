@@ -1,10 +1,10 @@
 <script setup lang="ts">
 const route = useRoute()
 
-const id = route.params.id.toString()
+const slug = route.params.slug.toString()
 const image = '/images/hero-image.svg'
 
-const { data: post, pending, error, refresh } = await useFetch(`/api/post/${id}`)
+const { data: post, pending, error, refresh } = await useFetch(`/api/post/${slug}`)
 </script>
 
 <template>
@@ -19,7 +19,8 @@ const { data: post, pending, error, refresh } = await useFetch(`/api/post/${id}`
 						Updated on {{ formatDate(post.publishedAt) }}
 					</span>
 				</div>
-				<section>
+				<section class="flex flex-col gap-4">
+					<h1 class="text-4xl font-semi-bold">{{ post.title }}</h1>
 					<p>{{ post.text }}</p>
 					<h6 v-if="post.author" class="my-4 text-sm">Author: {{ post.author }}</h6>
 					<ul class="flex gap-2 max-w-[100vw] overflow-x-scroll">

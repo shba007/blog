@@ -28,8 +28,8 @@ export default defineNuxtConfig({
       name: 'Blog',
       short_name: 'Blog',
       description: 'An Blog Website',
-      theme_color: '#0EA5E9',
-      background_color: '#0EA5E9',
+      theme_color: '#FBBF24',
+      background_color: '#FBBF24',
       orientation: 'portrait',
       shortcuts: [
       ],
